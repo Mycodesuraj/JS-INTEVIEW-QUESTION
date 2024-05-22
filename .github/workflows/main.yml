@@ -1,5 +1,4 @@
-JavaScript is a core technology for web development, and understanding its nuances can be crucial for technical interviews. Here's a compilation of top interview questions and important topics in JavaScript that you should be familiar with:
-
+JavaScript is a core technology for web development !
 ##Top Interview Questions
 
 1. **Explain event delegation.**
@@ -32,9 +31,9 @@ JavaScript is a core technology for web development, and understanding its nuanc
 10. **How can you handle errors in JavaScript?**
     - Errors can be handled using `try...catch` blocks, `throw` statements, and handling rejected promises using `.catch()`.
 
-### Important Topics in JavaScript
+## Important Topics in JavaScript*
 
-1. **Scope and Closures:**
+1. *Scope and Closures:*
    - Understanding how scope works, including global, local, and block scopes, as well as the creation and use of closures.
 
 2. **Asynchronous Programming:**
@@ -64,7 +63,7 @@ JavaScript is a core technology for web development, and understanding its nuanc
 10. **Memory Management:**
     - Knowing about garbage collection, memory leaks, and best practices to manage memory effectively.
 
-### Preparation Tips
+# Preparation Tips
 
 - **Practice Coding:** Solve problems on platforms like LeetCode, HackerRank, or CodeSignal.
 - **Build Projects:** Create small projects to apply what you've learned and understand real-world use cases.
