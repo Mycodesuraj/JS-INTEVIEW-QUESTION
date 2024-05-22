@@ -1,0 +1,73 @@
+JavaScript is a core technology for web development, and understanding its nuances can be crucial for technical interviews. Here's a compilation of top interview questions and important topics in JavaScript that you should be familiar with:
+
+##Top Interview Questions
+
+1. **Explain event delegation.**
+   - Event delegation is a technique that leverages event bubbling to handle events at a higher level in the DOM rather than assigning event listeners directly to each element.
+
+2. **What are closures in JavaScript?**
+   - A closure is a function that remembers its outer variables and can access them. This is due to lexical scoping, where functions have access to variables defined outside their scope.
+
+3. **What is the difference between `var`, `let`, and `const`?**
+   - `var` is function-scoped, `let` and `const` are block-scoped. `const` cannot be reassigned after its initial assignment. AND IIFE !
+
+4. **How does prototypal inheritance work in JavaScript?**
+   - JavaScript objects can inherit properties from another object via the prototype chain. This allows for property and method sharing among objects.
+
+5. **What are Promises and how do they work?**
+   - Promises represent the eventual completion (or failure) of an asynchronous operation and its resulting value. They have three states: pending, fulfilled, and rejected.
+
+6. **Explain the difference between synchronous and asynchronous code.**
+   - Synchronous code is executed line-by-line, blocking further execution until the current operation completes. Asynchronous code, on the other hand, does not block the execution and allows the program to continue running while waiting for the asynchronous operation to complete.
+
+7. **What is the event loop in JavaScript?**
+   - The event loop is a mechanism that handles the execution of asynchronous code by queuing and executing callback functions after the synchronous code has completed.
+
+8. **What is the difference between `==` and `===`?**
+   - `==` checks for value equality with type coercion, while `===` checks for both value and type equality.
+
+9. **What are JavaScript data types?**
+   - JavaScript has primitive data types (string, number, boolean, null, undefined, symbol, bigint) and object data types.
+
+10. **How can you handle errors in JavaScript?**
+    - Errors can be handled using `try...catch` blocks, `throw` statements, and handling rejected promises using `.catch()`.
+
+### Important Topics in JavaScript
+
+1. **Scope and Closures:**
+   - Understanding how scope works, including global, local, and block scopes, as well as the creation and use of closures.
+
+2. **Asynchronous Programming:**
+   - Mastering callbacks, Promises, async/await, and understanding the event loop.
+
+3. **Prototypal Inheritance:**
+   - Knowing how inheritance works in JavaScript and the prototype chain.
+
+4. **DOM Manipulation:**
+   - Using methods like `getElementById`, `querySelector`, and handling events.
+
+5. **ES6+ Features:**
+   - Familiarity with arrow functions, template literals, destructuring, spread/rest operators, modules, and classes.
+
+6. **Error Handling:**
+   - Effective error handling strategies using `try...catch`, custom error objects, and promise rejection handling.
+
+7. **Functional Programming Concepts:**
+   - Understanding higher-order functions, pure functions, immutability, and side-effects.
+
+8. **Modules:**
+   - Knowing the difference between CommonJS and ES6 modules, and how to import/export modules.
+
+9. **Event Handling:**
+   - Understanding event propagation, delegation, and the different types of events (e.g., click, input, etc.).
+
+10. **Memory Management:**
+    - Knowing about garbage collection, memory leaks, and best practices to manage memory effectively.
+
+### Preparation Tips
+
+- **Practice Coding:** Solve problems on platforms like LeetCode, HackerRank, or CodeSignal.
+- **Build Projects:** Create small projects to apply what you've learned and understand real-world use cases.
+- **Read Documentation:** Regularly read the MDN Web Docs for up-to-date and comprehensive information.
+- **Mock Interviews:** Conduct mock interviews to simulate the interview environment and get feedback.
+
